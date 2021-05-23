@@ -12,7 +12,7 @@ module.exports = function(sequelize, DataTypes) {
 
         passwordHash: {
             type: DataTypes.STRING,
-            allowNull: false
+            //allowNull: false
         },
 
         email: {
